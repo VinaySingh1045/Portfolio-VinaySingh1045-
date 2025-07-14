@@ -12,21 +12,41 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <a href="https://drive.google.com/file/d/1lbz6Hh8ewAv6zlk_xgqpx_lEY9NqvEWV/view?usp=sharing" target="_blank" rel="noreferrer" >
+              <a href="https://drive.google.com/drive/folders/1PWuq2-MVXqEAi4WHBOkgTu0vj1IcVBOW?usp=sharing" target="_blank" rel="noreferrer" >
                 <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Code</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               </a>
               <div className="project-links">
-                <a href="https://github.com/VinaySingh1045/Strontium" target="_blank" rel="noreferrer">
+                <a href="https://github.com/VinaySingh1045/shreeji-veg-js" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="https://strontium.freewebhostmost.com/" target="_blank" rel="noreferrer">
+                <a href="http://115.96.27.149:5000/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> </div>
             </header>
             <div className="body">
-              <h3>Strontium, The Spotify Clone</h3>
-              <p> Developed Strontium, a Spotify-inspired music streaming application using HTML, CSS, and JavaScript. The app features a visually appealing and responsive design, ensuring a seamless user experience across various devices. It includes a functional music player and playlist display.. </p>
+              <h3>ShreeJi Veg – Freelance Inventory & Order Solution</h3>
+              <p> ShreeJi Veg is a custom-built vegetable order management system developed for a local vendor. It allows efficient tracking of daily orders, favorite items, and quantities with a user-friendly interface. Built using React.js, Redux, and Ant Design, the system is fully responsive and optimized for real-world use... </p>
             </div>
-            <footer> <ul className="tech-list"> <li>JavaScript</li> <li>HTML</li> <li>CSS</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>Nodejs</li> <li>Reactjs</li> <li>TypeScript</li> <li>AntD</li> <li>MSSQL</li> </ul> </footer>
+          </div>
+        </ScrollAnimation>
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <a href="https://drive.google.com/file/d/1lbz6Hh8ewAv6zlk_xgqpx_lEY9NqvEWVV/view?usp=sharing" target="_blank" rel="noreferrer" >
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Code</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
+              </a>
+              <div className="project-links">
+                <a href="https://github.com/VinaySingh1045/MS-INTERN-JS-Testing" target="_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" /></a>
+                <a href="https://toshal-ms-intern.vercel.app/login" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a> </div>
+            </header>
+            <div className="body">
+              <h3>MS-Intern – The Intern Management System</h3>
+              <p> MS-Intern is a full-stack intern management system designed to streamline daily task logging, progress reporting, attendance tracking, and policy management. Built using the MERN stack, it features role-based access, AI-assisted summaries, and real-time communication via Google Chat and Telegram integration... </p>
+            </div>
+            <footer> <ul className="tech-list"> <li>Nodejs</li> <li>Reactjs</li> <li>TypeScript</li> <li>AntD</li> <li>Gemini</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -44,7 +64,7 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>HireHub: Job Seeking Website</h3>
+              <h3>HireHub – Job Seeking Website</h3>
               <p>
                 HireHub is a modern job-seeking platform where users can browse job listings, apply for jobs, and track the status of their applications. It aims to simplify the job application process and provide a seamless experience for both job seekers and employers.
               </p>
@@ -55,41 +75,6 @@ export function Project() {
                 <li>Reactjs</li>
                 <li>Tailwind CSS</li>
                 <li>Shadcn UI</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <a href="https://drive.google.com/file/d/1sMClR2adckZBhgDQ7bnLKf6CsJ6fsOWm/view?usp=sharing" target="_blank" rel="noreferrer">
-
-                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
-                  <title>Code</title>
-                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                </svg>
-              </a>
-              <div className="project-links">
-                <a href="https://github.com/VinaySingh1045/Contact-App" target="\_blank" rel="noreferrer">
-                  <img src={githubIcon} alt="Visit site" />
-                </a>
-                <a href="https://contact-app-phi-six.vercel.app/" target="\_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Contact Storing App</h3>
-              <p>
-                This contact app built with ReactJS and Redux allows users to effortlessly add, manage, and view their contact list. With data securely stored in localStorage, users can access their personalized contact list anytime.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Reactjs</li>
-                <li>Redux-Toolkit</li>
-                <li>Tailwind CSS</li>
               </ul>
             </footer>
           </div>
@@ -161,6 +146,41 @@ export function Project() {
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
+              <a href="https://drive.google.com/file/d/1sMClR2adckZBhgDQ7bnLKf6CsJ6fsOWm/view?usp=sharing" target="_blank" rel="noreferrer">
+
+                <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
+                  <title>Code</title>
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </a>
+              <div className="project-links">
+                <a href="https://github.com/VinaySingh1045/Contact-App" target="\_blank" rel="noreferrer">
+                  <img src={githubIcon} alt="Visit site" />
+                </a>
+                <a href="https://contact-app-phi-six.vercel.app/" target="\_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Contact Storing App</h3>
+              <p>
+                This contact app built with ReactJS and Redux allows users to effortlessly add, manage, and view their contact list. With data securely stored in localStorage, users can access their personalized contact list anytime.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Reactjs</li>
+                <li>Redux-Toolkit</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
               <a href="https://drive.google.com/file/d/1AlKZeQTvg0vWwUJPFAg6jq54eh1tCuhF/view?usp=sharing" target="_blank" rel="noreferrer" >
                 <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
                   <title>Code</title>
@@ -188,7 +208,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
       </div>
     </Container>
   );

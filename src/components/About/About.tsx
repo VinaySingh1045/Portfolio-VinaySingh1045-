@@ -26,7 +26,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          With expertise in HTML, CSS, JavaScript, Node.js, ReactJS, and Tailwind CSS, I thrive on solving problems and learning new technologies.</p>
+          With expertise in HTML, CSS, JavaScript, Node.js, ReactJS, Redux, AntD and Tailwind CSS, I thrive on solving problems and learning new technologies.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
