@@ -8,6 +8,8 @@ import githubIcon from '../../assets/github.svg'
 import twitter from '../../assets/twitter.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+import Resume from '../../assets/Vinay_Singh_Resume.pdf'
+
 export function Hero() {
   return (
     <Container id="home">
@@ -24,11 +26,20 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">Currently working at Toshal Infotech • Building scalable web applications </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
-          <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
-          </BrowserRouter>
-        </ScrollAnimation>
+        <div className="hero-buttons">
+          <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+            <BrowserRouter>
+              <a href={Resume} download className="button">
+                Resume
+              </a>
+            </BrowserRouter>
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
+            <BrowserRouter>
+              <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
+            </BrowserRouter>
+          </ScrollAnimation>
+        </div>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <div className="social-media"><a
             href="https://www.linkedin.com/in/vinay-singh-13a50a238/"

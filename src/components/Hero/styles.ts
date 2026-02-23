@@ -6,6 +6,16 @@ export const Container = styled.section`
   justify-content: space-between;
   gap: 8rem;
   background: rgba(0,0,0,0);
+  .hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  .button {
+    padding: 1.4rem 4rem;
+  }
+  }
   .hero-text{
     & > p{
       font-size: 1.8rem;
