@@ -15,8 +15,8 @@ export function Contact(){
       </header>
       <div className="contacts">
         <div>
-        <a href="mailto:vy0891547@gmail.com"><img src={emailIcon} alt="Email" /></a> 
-          <a href="mailto:vy0891547@gmail.com">vy0891547@gmail.com</a>
+        <a href="mailto:work.vinay1045@gmail.com"><img src={emailIcon} alt="Email" /></a> 
+          <a href="mailto:work.vinay1045@gmail.com">work.vinay1045@gmail.com</a>
         </div>
       </div>
       <Form></Form>

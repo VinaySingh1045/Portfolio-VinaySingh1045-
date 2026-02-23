@@ -18,7 +18,7 @@ export function Project() {
               <div className="project-links">
                 <a href="https://github.com/VinaySingh1045/shreeji-veg-js" target="_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" /></a>
-                <a href="http://115.96.27.149:5000/" target="_blank" rel="noreferrer">
+                <a href="http://115.96.27.149:5173/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a> </div>
             </header>
@@ -154,10 +154,10 @@ export function Project() {
                 </svg>
               </a>
               <div className="project-links">
-                <a href="https://github.com/VinaySingh1045/Contact-App" target="\_blank" rel="noreferrer">
+                <a href="https://github.com/VinaySingh1045/React-Contact-APP" target="\_blank" rel="noreferrer">
                   <img src={githubIcon} alt="Visit site" />
                 </a>
-                <a href="https://contact-app-phi-six.vercel.app/" target="\_blank" rel="noreferrer">
+                <a href="https://react-contact-app-rho.vercel.app/" target="\_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>

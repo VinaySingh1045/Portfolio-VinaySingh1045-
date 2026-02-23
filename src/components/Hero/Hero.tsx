@@ -13,16 +13,16 @@ export function Hero() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
+          <p>Hello <img src={Hello} alt="Hello" width="20px" />, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Vinay Singh</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>Frontend Developer | React.js & MERN Stack</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">Currently Working as a Intern In Toshal Infotech </p>
+          <p className="small-resume">Currently working at Toshal Infotech • Building scalable web applications </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -30,34 +30,34 @@ export function Hero() {
           </BrowserRouter>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-      <div className="social-media"><a
-        href="https://www.linkedin.com/in/vinay-singh-13a50a238/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={linkedin} alt="Linkedin" />
-      </a>
-        <a
-          href="https://github.com/VinaySingh1045"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-        <a
-          href="https://twitter.com/vinaysingh_1045"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={twitter} alt="Whatsapp" />
-        </a>
-        <a
-          href="https://t.me/VinaySingh1045"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a></div>
+          <div className="social-media"><a
+            href="https://www.linkedin.com/in/vinay-singh-13a50a238/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="Linkedin" />
+          </a>
+            <a
+              href="https://github.com/VinaySingh1045"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={githubIcon} alt="GitHub" />
+            </a>
+            <a
+              href="https://twitter.com/vinaysingh_1045"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={twitter} alt="Whatsapp" />
+            </a>
+            <a
+              href="https://t.me/VinaySingh1045"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={telegram} alt="telegram" />
+            </a></div>
         </ScrollAnimation>
       </div>
       <div className="hero-image">

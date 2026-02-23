@@ -21,16 +21,18 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinay, a dedicated tech enthusiast and MERN Stack Developer passionate about building innovative full-stack projects. Currently, I am honing my skills as a Backend Developer Intern at Toshal Infotech, where I focus on creating impactful solutions.
+            Hi, I'm Vinay — a Frontend Developer at Toshal Infotech with strong backend experience in Node.js and Express.js. I build scalable, user-focused web applications using modern JavaScript technologies and clean architecture principles.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          With expertise in HTML, CSS, JavaScript, Node.js, ReactJS, Redux, AntD and Tailwind CSS, I thrive on solving problems and learning new technologies.</p>
+            I specialize in React.js, Next.js, Redux Toolkit, and REST API integration. On the backend, I have hands-on experience designing APIs, implementing authentication, and working with MongoDB, Prisma, and TypeScript to build efficient systems.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+            I enjoy solving real-world problems, optimizing performance, and continuously improving my technical and problem-solving skills. Currently, I am strengthening my Data Structures & Algorithms to prepare for product-based company opportunities.
+          </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
@@ -70,7 +72,7 @@ export function About() {
             <ScrollAnimation animateIn="fadeInUp" delay={0.18 * 1000}>
               <img src={cssIcon} alt="Css" />
             </ScrollAnimation>
-          </div>        
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
               <img src={tailwind} alt="TailwindCSS" />
